@@ -91,4 +91,4 @@ C:\Users\2085700\source\repos\AuditSeverityMicroservice\AuditSeverityMicroservic
 C:\Users\2085700\source\repos\AuditSeverityMicroservice\AuditSeverityMicroservice\obj\Debug\netcoreapp3.1\AuditSeverityMicroservice.dll
 C:\Users\2085700\source\repos\AuditSeverityMicroservice\AuditSeverityMicroservice\obj\Debug\netcoreapp3.1\AuditSeverityMicroservice.pdb
 C:\Users\2085700\source\repos\AuditSeverityMicroservice\AuditSeverityMicroservice\obj\Debug\netcoreapp3.1\AuditSeverityMicroservice.genruntimeconfig.cache
-C:\Users\2085700\source\repos\AuditSeverityMicroservice\AuditSeverityMicroservice\obj\Debug\netcoreapp3.1\AuditSeverityMicroservice.csproj.AssemblyReference.cache
+C:\Users\2085700\source\repos\AuditSeverityMicroservice\AuditSeverityMicroservice\bin\Debug\netcoreapp3.1\YAMLFile.yml
