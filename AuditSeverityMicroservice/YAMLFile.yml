@@ -1,0 +1,34 @@
+﻿apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: auditseveritymicroservice-deployment
+  labels:
+    app: AuditSeverityMicroservice
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: AuditSeverityMicroservice
+  template:
+    metadata:
+      labels:
+        app: AuditSeverityMicroservice
+    spec:
+      containers:
+      - name: auditseverityreg
+        image: auditseverityreg.azurecr.io/auditseverityrepo:latest
+        ports:
+        - containerPort: 8080
+      imagePullSecrets:
+      - name: webapisvcsecret
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: auditseveritymicroservicesvc
+spec:
+  type: LoadBalancer
+  ports:
+  - port: 80
+  selector:
+    app: AuditSeverityMicroservice
