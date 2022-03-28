@@ -77,7 +77,6 @@ C:\Users\2085700\source\repos\AuditSeverityMicroservice\AuditSeverityMicroservic
 C:\Users\2085700\source\repos\AuditSeverityMicroservice\AuditSeverityMicroservice\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\2085700\source\repos\AuditSeverityMicroservice\AuditSeverityMicroservice\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\2085700\source\repos\AuditSeverityMicroservice\AuditSeverityMicroservice\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\2085700\source\repos\AuditSeverityMicroservice\AuditSeverityMicroservice\obj\Debug\netcoreapp3.1\AuditSeverityMicroservice.csproj.AssemblyReference.cache
 C:\Users\2085700\source\repos\AuditSeverityMicroservice\AuditSeverityMicroservice\obj\Debug\netcoreapp3.1\AuditSeverityMicroservice.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\2085700\source\repos\AuditSeverityMicroservice\AuditSeverityMicroservice\obj\Debug\netcoreapp3.1\AuditSeverityMicroservice.AssemblyInfoInputs.cache
 C:\Users\2085700\source\repos\AuditSeverityMicroservice\AuditSeverityMicroservice\obj\Debug\netcoreapp3.1\AuditSeverityMicroservice.AssemblyInfo.cs

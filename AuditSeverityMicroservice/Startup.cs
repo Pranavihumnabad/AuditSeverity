@@ -53,7 +53,15 @@ namespace AuditSeverityMicroservice
                     ValidateIssuer = false,
                     ValidateAudience = false
                 };
+
             });
+            services.AddCors(options => options.AddPolicy("AllowOrigin", builder =>
+            {
+                builder.AllowAnyOrigin()
+                .AllowAnyMethod()
+                .AllowAnyHeader();
+            }));
+
 
             services.AddControllers();
             services.AddScoped<IAuditSeverityRepo, AuditSeverityRepo>();
@@ -87,6 +95,7 @@ namespace AuditSeverityMicroservice
             {
                 endpoints.MapControllers();
             });
+            app.UseCors("AllowOrigin");
         }
     }
 }
